@@ -1,4 +1,4 @@
-#inclure <stdio.h>
+#include <stdio.h>
 
 /**
  * principal - Point d'entée
@@ -6,8 +6,8 @@
  * Retour toujours 0 (Succès)
  */
 
-int principal ( void )
+int principal (void)
 {
-	printf ( "with proper grammar, but the outcome is a piece of art, \n " );
-	retour ( 0 );
+	printf ("with proper grammar, but the outcome is a piece of art,\n");
+	retour (0);
 }
