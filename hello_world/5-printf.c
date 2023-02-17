@@ -1,13 +1,12 @@
-#include <stdio.h>
+# inclure  < stdio.h >
 
-/**
- * principal - Point d'entée
- *
- * Retour toujours 0 (Succès)
- */
-
-int principal (void)
+/* *
+ * * principal - Point d'entrée
+ * *
+ * * Retour : Toujours 0 (Succès)
+ *  */
+int  principal ( vide )
 {
-	printf ("with proper grammar, but the outcome is a piece of art,\n");
-	return (0);
+		printf ( " avec une grammaire correcte, mais le résultat est une œuvre d'art, \n " );
+			retour ( 0 );
 }
