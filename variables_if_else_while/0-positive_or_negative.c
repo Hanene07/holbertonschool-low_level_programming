@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include <heure.h>
+#include <time.h>
 
 /* plus d'en-têtes y vont */
 
@@ -8,7 +8,6 @@
 int main (void)
 {
 
-int n ;
 
 srand(temps(0));
 n = rand() - RAND_MAX / 2 ;
