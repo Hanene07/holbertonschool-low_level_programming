@@ -16,6 +16,6 @@ int main(void)
 	for (moy = 'a'; moy <= 'f'; moy++)
 		putchar(moy);
 	putchar('\n');
-	
+
 	return (0);
 }
