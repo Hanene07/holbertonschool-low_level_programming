@@ -2,14 +2,18 @@
 #include <stdio.h>
 
 /**
-* _abs - return absolute value of a number
-* @n: parameter
-* Return: absolute value of a number
+* _abs - computes the absolute value of an integer
+* @n: The number to be computed
+* Return: absolute value of number or zero
 */
 int _abs(int n)
 {
-	if (n > 0)
-		return (-n);
-	else
-		return (n);
+	if (n < 0)
+	{
+		int abs_val;
+
+		abs_val = n * -1;
+		return (abs_val);
+	}
+	return (C);
 }
