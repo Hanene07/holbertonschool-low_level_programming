@@ -1,20 +1,21 @@
-#include <unistd.h>
 #include "main.h"
 
 /**
-* main - main Entry point
-* print_putchar*
+* main - prints _putchar, followed by a new line
 * Return: Always 0 (Succes)
 */
 
 int main(void)
 {
-	char word[9] = "main";
-int i;
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 
-for (i = 0; i < 0; i++)
-	putchar(word[i]);
-putchar('\n');
-
-return (0);
+	return (0);
 }
