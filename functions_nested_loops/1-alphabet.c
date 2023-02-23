@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
-* main - prints _putchar, followed by a new line
+* print_alphabet - make the alphabet
 * Return: void
 */
 
