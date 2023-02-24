@@ -16,4 +16,5 @@ oclean :
 
 fclean :
 	$(RM) *~ $(NAME) *.O
-re: fclean all
+re: 
+	fclean all
