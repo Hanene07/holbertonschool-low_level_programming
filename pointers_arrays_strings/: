@@ -1,0 +1,13 @@
+#include "main.h"
+#inclde <stdio.h>
+
+/**
+* main - a function that takes a pointer
+* Return: Always 
+*/
+int main(void)
+{
+	int n;
+
+	n = 98;
+}
