@@ -3,24 +3,30 @@
 
 /**
  * _strncpy - function that copies a string
- * @dest: input string
- * @src: input string
- * @n: input integer
- * Return: A pointer to the resulting string
+ * @dest: the destination value
+ * @src: the source value
+ * @n: the copie limit
+ * Return: char value
  */
 char *_strncpy(char *dest, char *src, int n)
 {
-	int j;
+	int a = 0, b = 0;
 
-	while (j < n && src[j] != '\0')
+	while (src[b])
 	{
-		dest[j] = src[j];
-		j++;
+		b++;
 	}
-	while (j < n)
+
+	while (a < n && src[a])
 	{
-		dest[j] = '\0';
-		j++;
+		dest[a] = src[a];
+		a++;
+	}
+
+	while (a < n)
+	{
+		dest[a] = '\0';
+		a++;
 	}
 
 	return (dest);
