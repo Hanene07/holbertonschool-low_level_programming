@@ -4,6 +4,7 @@
 /**
  * _strlen_recursion - function that returns the length of a string
  * @s: a pointer to a character array
+ * Return: the length of a string
  */
 int _strlen_recursion(char *s)
 {
