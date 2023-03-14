@@ -6,7 +6,7 @@
 /**
 * *_strdup - function that returns a pointer
 * to a newly allocated space in memory
-* @*str: a pointer that points to the string given as a parameter
+* @str: a pointer that points to the string given as a parameter
 * Return: NULL if str = NULL
 */
 char *_strdup(char *str)
@@ -28,7 +28,6 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
-
 
 	strcpy(new_string, str);
 
